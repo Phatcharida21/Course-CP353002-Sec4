@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+C:\Users\NBODT\OneDrive - Khon Kaen University\Course\CP353002\Lab5\.metadata\.plugins\org.eclipse.jdt.core
+1787311218.index
+2057307594.index
+3644512002.index
+1865797976.index
+3887064252.index

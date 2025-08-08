@@ -1,0 +1,44 @@
+package com.example.Controllerr;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.model.Customer;
+import com.example.services.CustomerServices;
+
+@RestController
+@RequestMapping("/field")
+public class SetterCustomerController {
+	@Autowired
+	private CustomerServices customerService;
+	
+	@GetMapping("/{id}") // Get http://localhost:8080/feild/15
+	public String getCustomerById(@PathVariable Long id) {
+		Customer cust = customerService.getCustomerById(id);
+		return "Field Injection : Id: " + cust.getId() + ", Name: " + cust.getName();
+	}
+	
+	@GetMapping("/{id}/{name}") // Get http://localhost:8080/feild/10/Alice
+	public String getCustomerByName(@PathVariable Long id, @PathVariable String name) {
+		Customer cust = customerService.getCustomerByName(id,name);
+		return "Field Injection : Id: " + cust.getId() + ", Name: " + cust.getName();
+	}
+	
+	@GetMapping("/customerlist") // GET http://localhost:8080/field/customerlist
+    public List<Customer> getCustomerList() {
+        List<Customer> customers = customerService.getCustomerList();
+//        StringBuilder result = new StringBuilder("Field Injection - Customer List:\n");
+//        for (Customer cust : customers) {
+//            result.append("Id: ").append(cust.getId())
+//                  .append(", Name: ").append(cust.getName()).append("\n");
+//        }
+        return customers;
+    }
+	
+
+}

@@ -1,0 +1,23 @@
+package com.example.demo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.example.model.Customer;
+
+@Controller
+public class CustomerController {
+	@GetMapping("/customer2")
+	public String getCustomer(Model model) {
+	    List<Customer> customers = new ArrayList<>();
+	    customers.add(new Customer(6083L, "Phatcharida Fuesngarrom"));
+	    customers.add(new Customer(2222L, "Another Customer"));
+	    model.addAttribute("customers", customers);
+	    return "customer2";
+	}
+
+}

@@ -1,0 +1,11 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Value Sending from a Controller to a View</title>
+</head>
+<body>
+
+	<h1 th:text = "'Customer Information'">Customer Information</h1>
+	<h1 th:text = "'ID: ' + ${customer.id}">ID</h1>
+	<h1 th:text = "'Name: ' + ${customer.name}">Name</h1></br>
+</body>
+</html>

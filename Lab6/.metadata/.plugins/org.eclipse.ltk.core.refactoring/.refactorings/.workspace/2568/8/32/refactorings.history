@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Autowired&apos; to &apos;Lab6_Autowired&apos;&#x0D;&#x0A;- Original element: &apos;Autowired&apos;&#x0D;&#x0A;- Renamed element: &apos;Autowired&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Autowired&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Autowired" name="Lab6_Autowired" references="true" stamp="1754643759734" version="1.0"/>
+</session>
