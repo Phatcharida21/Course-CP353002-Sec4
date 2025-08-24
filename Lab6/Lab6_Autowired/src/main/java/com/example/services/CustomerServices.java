@@ -11,7 +11,7 @@ import com.example.model.Customer;
 @Service
 public class CustomerServices {
 	public Customer getCustomerById(Long id) {
-		return new Customer(id,"Phatcharida");
+		return new Customer(id,"Lisa");
 	}
 	
 	public Customer getCustomerByName(Long id, String name) {

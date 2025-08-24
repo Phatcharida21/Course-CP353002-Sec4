@@ -1,0 +1,13 @@
+2025-08-22 17:34:56,574 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-08-22 17:36:02,070 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Lab07_sec3CustomerRestApi:0.0.1-SNAPSHOT @ D:\Course\CP353002\Sec4_Lab07\Lab07_sec3CustomerRestApi\pom.xml.
+2025-08-22 17:36:04,097 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-22 17:36:04,127 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-22 17:36:04,136 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Course\CP353002\Sec4_Lab07\Lab07_sec3CustomerRestApi\src\test\resources
+2025-08-22 17:36:05,369 [Worker-24: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cp.lab7sec4:Lab07_sec4CustomerRestApi-1:0.0.1-SNAPSHOT @ D:\Course\CP353002\Sec4_Lab07\Lab07_sec4CustomerRestApi-1\pom.xml.
+2025-08-22 17:36:06,342 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-22 17:36:06,347 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-22 17:36:06,353 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Course\CP353002\Sec4_Lab07\Lab07_sec3CustomerRestApi\src\test\resources
+2025-08-22 17:36:06,385 [Worker-24: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Lab07_sec3CustomerRestApi:0.0.1-SNAPSHOT @ D:\Course\CP353002\Sec4_Lab07\Lab07_sec3CustomerRestApi\pom.xml.
+2025-08-22 17:36:08,934 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-22 17:36:08,963 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-22 17:36:08,973 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Course\CP353002\Sec4_Lab07\Lab07_sec4CustomerRestApi-1\src\test\resources
